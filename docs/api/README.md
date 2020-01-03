@@ -399,6 +399,26 @@ router.addRoutes(routes: Array<RouteConfig>)
 
 Dynamically add more routes to the router. The argument must be an Array using the same route config format with the `routes` constructor option.
 
+### router.removeRoute
+
+Signature：
+
+```js
+router.removeRoute(location: string)
+```
+
+Dynamically remove route from router.  The argument must be a valid `path`。
+
+### router.replaceRoutes
+
+Signature：
+
+```js
+router.replaceRoutes(routes: Array<RouteConfig> | RouteConfig)
+```
+
+Dynamically replace routes from router. The argument must be an Array/Object using the same route config format with the `routes` constructor option.
+
 ### router.onReady
 
 Signature:

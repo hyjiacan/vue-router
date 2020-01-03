@@ -399,6 +399,26 @@ router.addRoutes(routes: Array<RouteConfig>)
 
 动态添加更多的路由规则。参数必须是一个符合 `routes` 选项要求的数组。
 
+### router.removeRoute
+
+函数签名：
+
+```js
+router.removeRoute(location: string)
+```
+
+动态移除指定路径的路由规则。参数必须是一个有效的 `path`。
+
+### router.replaceRoutes
+
+函数签名：
+
+```js
+router.replaceRoutes(routes: Array<RouteConfig> | RouteConfig)
+```
+
+动态替换路径的路由规则。参数必须是一个符合 `routes` 选项要求的项或数组。
+
 ### router.onReady
 
 函数签名：
